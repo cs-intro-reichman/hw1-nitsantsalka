@@ -6,10 +6,10 @@ public class Bill3 {
 		String name2 = args[1];
 		String name3 = args[2];
 		int sum = Integer.parseInt(args[3]);
-		double sumeach = (double)sum/3; 
+		double sumeach = Math.ceil((double)sum/3); 
 
 		System.out.print("dear " +name3 +", " + name2 + ", and " + name1 +
-		 ": pay " + Math.ceil(sumeach) + " Shekels each" );
+		 ": pay " + sumeach + " Shekels each" );
 	       
 	}
 }
