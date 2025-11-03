@@ -8,7 +8,7 @@ public class Bill3 {
 		int sum = Integer.parseInt(args[3]);
 		double sumeach = Math.ceil((double)sum/3); 
 
-		System.out.print("dear " +name3 +", " + name2 + ", and " + name1 +
+		System.out.print("Dear " +name3 +", " + name2 + ", and " + name1 +
 		 ": pay " + sumeach + " Shekels each" );
 	       
 	}
