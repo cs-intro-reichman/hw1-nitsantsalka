@@ -53,4 +53,8 @@ public class TimeFormat {
 		}
 
 	}
+
 }
+
+// great job handling all cases
+// notice that minutes is handled the same in all cases, so instead of duplicating code maybe we can handle it once (doesnt matter when)
