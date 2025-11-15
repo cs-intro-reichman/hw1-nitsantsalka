@@ -13,3 +13,6 @@ public class Bill3 {
 	       
 	}
 }
+
+// Great job, dont forget camel case:
+// sumeach -> sumEach
